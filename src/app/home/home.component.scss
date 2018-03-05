@@ -1,0 +1,54 @@
+.header {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  margin: 0;
+  padding-top: 40vh;
+  padding-bottom: 30vh;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (max-width:700px) {
+  .header {
+    padding-top: 20vh;
+  }
+}
+
+.parallax {
+  background-image: url('../../assets/img/a.jpeg');
+}
+
+.content-text {
+  padding: 2em;
+}
+
+.about {
+  margin-bottom: 2em;
+}
+
+.about h2 {
+  color: #7e7777;
+}
+
+section.team {
+  padding: 2em;
+  color: #7e7777;
+}
+section.team .row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+section.team .card {
+  color: #4f4f4f;
+  border-radius: 15px;
+}
+
+section.footer {
+  background-color: #29c97d;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  color: #fff;
+}
